@@ -11,8 +11,22 @@
 <!-- partial:index.partial.html -->
 <div data-scroll-container>
   <section id="intro" class="h-screen flex items-center justify-center text-center bg-green-200" data-scroll-section>
-    <div class="container px-5 mx-auto">
-      <h1 class="text-5xl font-bold" data-scroll data-scroll-repeat data-scroll-call="toggleBackToTop"><p>Riset</p> <a class="underline" target="_blank"><p>Kolaborator dan Kompetitor</p></a></h1>
+    <h2 class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 -skew-x-12 whitespace-nowrap text-6xl sm:text-9xl font-extrabold py-4">
+      <span class="inline-block" data-scroll data-scroll-repeat data-scroll-speed="3" data-scroll-call="randomizeTextColor">R</span>
+      <span class="inline-block" data-scroll data-scroll-repeat data-scroll-speed="2" data-scroll-call="randomizeTextColor">i</span>
+      <span class="inline-block" data-scroll data-scroll-repeat data-scroll-speed="3" data-scroll-call="randomizeTextColor">s</span>
+      <span class="inline-block" data-scroll data-scroll-repeat data-scroll-speed="2" data-scroll-call="randomizeTextColor">e</span>
+      <span class="inline-block" data-scroll data-scroll-repeat data-scroll-speed="3" data-scroll-call="randomizeTextColor">t</span>
+    </h2>
+    <div class="transform rotate-6 skew-x-12">
+      <div data-scroll data-scroll-direction="horizontal" data-scroll-speed="30" data-scroll-target="#services">
+        <span class="text-3xl sm:text-4xl md:text-6xl 2xl:text-7xl bg-green-400 p-5 whitespace-nowrap">Kolaborator</span>
+      </div>
+    </div>
+    <div class="transform -rotate-6 -skew-x-12 mt-40">
+      <div data-scroll data-scroll-direction="horizontal" data-scroll-speed="-30" data-scroll-target="#services">
+        <span class="text-3xl sm:text-4xl md:text-6xl 2xl:text-7xl bg-green-400 p-5 whitespace-nowrap">Kompetitor</span>
+      </div>
     </div>
   </section>
   <section class="py-40" data-scroll-section>
