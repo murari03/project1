@@ -1,3 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Unique Scrolling Website With Locomotive Scroll &amp; Tailwind CSS</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.1.2/tailwind.min.css'>
+<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.1/dist/locomotive-scroll.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
 <div data-scroll-container>
   <section id="intro" class="h-screen flex items-center justify-center text-center bg-green-200" data-scroll-section>
     <div class="container px-5 mx-auto">
@@ -136,3 +147,8 @@
     <img width="24" height="24" src="https://assets.codepen.io/162656/george-martsoukos-small-logo.svg" alt="George Martsoukos logo">
   </a>
 </footer>
+<!-- partial -->
+  <script src='https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.1/dist/locomotive-scroll.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
