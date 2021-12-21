@@ -19,6 +19,13 @@
     </script>
     <link type="image/png" rel="icon" href="https://cdn.statically.io/img/www.unpad.ac.id/q=80/wp-content/uploads/2021/02/favicon.png">
     <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i|PT+Serif:400,400i,700,700i">
+	<style>
+    #fixed{
+        position:fixed;
+        bottom:0px;
+        right:0px;
+    }
+	</style>
     <script>
       (function(i, s, o, g, r, a, m) {
         i['GoogleAnalyticsObject'] = r;
@@ -624,10 +631,9 @@
         });
       }
     </script>
-	<audio autoplay loop preload="metadata" style=" width:300px;">
-	<source src="https://www.rafyaz.tech/local/audio/backsound.mp3" type="audio/mpeg">
-	Your browser does not support the audio element.
-</audio>
+	<audio id = "fixed" controls>
+	<source src = "https://www.rafyaz.tech/local/audio/backsound.mp3" type = "audio/mpeg">
+	</audio>
   </body>
 
 
